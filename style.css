@@ -1,0 +1,33 @@
+div{
+    color: white;
+    height: 400px;
+    width: 400px;
+    background-color: #eee;
+    background-image: url("../css-assignment-5-8.png");
+    margin: 10px;
+    padding: 10px;
+}
+.shape-1,
+.shape-2,
+.shape-3{
+    background-size: 80%;
+}
+.shape-1{
+    background-repeat: no-repeat;
+}
+.shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+    
+}
+.shape-4{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+
+    
+}
